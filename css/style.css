@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(10, 25, 47);
@@ -274,7 +275,6 @@ header {
 /* Main */
 
 main {
-  /* padding: 0 2rem; */
   margin: 0 auto;
 }
 
@@ -282,7 +282,6 @@ main {
 
 .about--img {
   max-width: 300px;
-  /* max-width: 50%; */
   max-height: 300px;
   margin: 0 1rem;
 }
@@ -355,12 +354,6 @@ main {
   transform: translateY(-5px);
 }
 
-/* .project {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-} */
-
 .projects h3 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -423,10 +416,6 @@ main {
 
 .blog-desc {
   margin-bottom: 2rem;
-}
-
-.blog-desc p {
-  /* margin-bottom: 0.25rem; */
 }
 
 .blog-desc a {
